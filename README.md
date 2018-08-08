@@ -1,12 +1,13 @@
 # gettingandcleaningdata
 Getting and Cleaning Data - Final Project
 
-This script is intended to combine data from files in the UCI HAR Dataset into a
-single tidy table containing the averages for each type of measurement (only
-including means and standard deviations) taken from each subject while 
-performing each activity.
+The script "run_analysis.R" is intended to combine data from files in the UCI 
+HAR Dataset into a single tidy table containing the averages for each type of 
+measurement (only including means and standard deviations) taken from each 
+subject while performing each activity.
 
-Before running the script "run_analysis.R", please make sure all the raw data is included in your working directory with the following relative file paths:
+Before running the script "run_analysis.R", please make sure all the raw data is
+included in your working directory with the following relative file paths:
 
 "UCI HAR Dataset/features.txt",
 "UCI HAR Dataset/activity_labels.txt",
