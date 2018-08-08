@@ -1,6 +1,6 @@
 ## Combines the data in the UCI HAR Dataset folder into a single, tidy dataframe
-## including the mean and sd of measurements from both the training and test 
-## groups
+## including the averages of the mean and sd for each type of measurement from 
+## both the training and test groups
 
 run_analysis <- function() {
         
