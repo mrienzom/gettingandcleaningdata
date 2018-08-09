@@ -20,13 +20,13 @@ paths:
 "UCI HAR Dataset/train/y_train.txt"
 
 The script should not be passed any arguments. It will return a dataframe with
-11880 observations of 10 variables. The first 9 variables specify a subject,
-activity, and type of measurement; the final variable gives the average value
-of the measurement across all identical instances of the first 9 variables. 
-The script combines the processed data along with the ID variables from both the 
-test and train files. Definitions for all the ID variables and their values are 
-given in the modified codebook, along with the rationale for organizing the data
-in this way.
+11880 observations of 10 variables. The first 8 variables are ID variables that 
+specify a subject, activity, and type of measurement; the final 2 are summary
+variables describing the set of records with the values defined by the first 8
+variables. The script combines the processed data along with the ID variables 
+from both the test and train files. Definitions for all the ID variables and 
+their values are given in the modified codebook, along with the rationale for 
+organizing the data in this manner.
 
 The files included in this repository are:
 'README.md'
