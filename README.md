@@ -1,5 +1,5 @@
-# gettingandcleaningdata
-Getting and Cleaning Data - Final Project
+# Coursera - Getting and Cleaning Data
+## Final Project
 
 The script "run_analysis.R" is intended to combine the processed data from files 
 in the UCI HAR Dataset [1] into a single tidy table containing the averages for 
@@ -10,13 +10,13 @@ Before running the script "run_analysis.R", please make sure all the processed
 data are included in your working directory with the following relative file 
 paths:
 
-"UCI HAR Dataset/features.txt",
-"UCI HAR Dataset/activity_labels.txt",
-"UCI HAR Dataset/test/subject_test.txt",
-"UCI HAR Dataset/test/X_test.txt",
-"UCI HAR Dataset/test/y_test.txt",
-"UCI HAR Dataset/train/subject_train.txt",
-"UCI HAR Dataset/train/X_train.txt",
+"UCI HAR Dataset/features.txt" <br />
+"UCI HAR Dataset/activity_labels.txt"<br />
+"UCI HAR Dataset/test/subject_test.txt"<br />
+"UCI HAR Dataset/test/X_test.txt"<br />
+"UCI HAR Dataset/test/y_test.txt"<br />
+"UCI HAR Dataset/train/subject_train.txt"<br />
+"UCI HAR Dataset/train/X_train.txt"<br />
 "UCI HAR Dataset/train/y_train.txt"
 
 The script should not be passed any arguments. It will return a dataframe with
@@ -33,7 +33,7 @@ The files included in this repository are:
 'codebook.txt' - gives an description of the variables in the output dataframe
 'run_analysis.R' - contains the code for the data analysis
 
-References:
+### References:
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. 
 Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass 
