@@ -1,13 +1,14 @@
 # gettingandcleaningdata
 Getting and Cleaning Data - Final Project
 
-The script "run_analysis.R" is intended to combine data from files in the UCI 
-HAR Dataset into a single tidy table containing the averages for each type of 
-measurement (only including means and standard deviations) taken from each 
-subject while performing each activity.
+The script "run_analysis.R" is intended to combine the processed data from files 
+in the UCI HAR Dataset [1] into a single tidy table containing the averages for 
+each type of measurement (only including means and standard deviations) taken 
+from records for each subject while performing each activity.
 
-Before running the script "run_analysis.R", please make sure all the raw data is
-included in your working directory with the following relative file paths:
+Before running the script "run_analysis.R", please make sure all the processed 
+data are included in your working directory with the following relative file 
+paths:
 
 "UCI HAR Dataset/features.txt",
 "UCI HAR Dataset/activity_labels.txt",
@@ -22,5 +23,19 @@ The script should not be passed any arguments. It will return a dataframe with
 11880 observations of 10 variables. The first 9 variables specify a subject,
 activity, and type of measurement; the final variable gives the average value
 of the measurement across all identical instances of the first 9 variables. 
-Definitions for the ID variables and their values are given in the modified 
-codebook, along with the rationale for this analysis.
+The script combines the processed data along with the ID variables from both the 
+test and train files. Definitions for all the ID variables and their values are 
+given in the modified codebook, along with the rationale for organizing the data
+in this way.
+
+The files included in this repository are:
+'README.md'
+'codebook.txt' - gives an description of the variables in the output dataframe
+'run_analysis.R' - contains the code for the data analysis
+
+References:
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. 
+Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass 
+Hardware-Friendly Support Vector Machine. International Workshop of Ambient 
+Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
